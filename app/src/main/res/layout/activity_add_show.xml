@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="gone"
+        android:id="@+id/name_group">
+
+
+        <TextView
+            android:id="@+id/show_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="name" />
+
+        <EditText
+            android:id="@+id/name_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type name of show here"
+
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:id="@+id/groupDeterminer">
+
+            <RadioButton
+                android:id="@+id/currentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:onClick="onClickCurrent"
+                android:text="Currently Watching" />
+
+            <RadioButton
+                android:id="@+id/WatchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:onClick="onClickWatch"
+                android:text="Want to Watch" />
+
+            <RadioButton
+                android:id="@+id/PrevButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:onClick="onClickPrev"
+                android:text="Finished" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/rating_group">
+
+
+        <TextView
+            android:id="@+id/show_rating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="rating" />
+
+        <EditText
+            android:id="@+id/rating_in"
+            style="@style/showDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type current rating, if applicable"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/review_group">
+
+
+        <TextView
+            android:id="@+id/show_review"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="review" />
+
+        <EditText
+            android:id="@+id/review_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type current review, if applicable"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/progress_group">
+
+
+        <TextView
+            android:id="@+id/show_progress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="progress" />
+
+        <EditText
+            android:id="@+id/progress_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type current progress, if applicable"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="submit"
+        android:onClick="onClickSub"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/please"
+        android:text="Please Log In Before Continuing"
+        android:textSize="30dp"
+        android:visibility="gone"/>
+</LinearLayout>

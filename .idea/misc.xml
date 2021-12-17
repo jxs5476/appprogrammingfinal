@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.5572916666666666" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/activity_add_show.xml" value="0.4633911368015414" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/activity_log_in.xml" value="0.35567715458276333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/activity_show_detail.xml" value="0.5411458333333333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/fragment_dashboard.xml" value="0.5411458333333333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/fragment_home.xml" value="0.5411458333333333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/fragment_notifications.xml" value="0.5411458333333333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/list_item_new.xml" value="0.46979166666666666" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/list_item_prev.xml" value="0.5411458333333333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/list_item_show.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/recycler_view_items.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/show_detail_fragment.xml" value="0.5" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/layout/show_item_detail.xml" value="0.5411458333333333" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/menu/appbar.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/Jake Smith/AndroidStudioProjects/ShowTracker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5411458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
